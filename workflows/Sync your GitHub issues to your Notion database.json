@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "connections": {
     "IF": {
       "main": [
@@ -85,8 +85,8 @@
       ]
     }
   },
-  "createdAt": "2023-11-21T15:25:06.992Z",
-  "id": "Uisg8uxNV1zKXfBD",
+  "createdAt": "2023-11-21T04:56:42.794Z",
+  "id": "ua4w1EpVhJTZ7Msl",
   "meta": null,
   "name": "Sync your GitHub issues to your Notion database",
   "nodes": [
@@ -116,13 +116,7 @@
         380,
         240
       ],
-      "typeVersion": 2,
-      "credentials": {
-        "notionApi": {
-          "id": "zYsfAdknccFRpBJd",
-          "name": "Notion account"
-        }
-      }
+      "typeVersion": 2
     },
     {
       "parameters": {
@@ -154,13 +148,7 @@
         560,
         440
       ],
-      "typeVersion": 2,
-      "credentials": {
-        "notionApi": {
-          "id": "zYsfAdknccFRpBJd",
-          "name": "Notion account"
-        }
-      }
+      "typeVersion": 2
     },
     {
       "parameters": {
@@ -237,13 +225,7 @@
         920,
         200
       ],
-      "typeVersion": 2,
-      "credentials": {
-        "notionApi": {
-          "id": "zYsfAdknccFRpBJd",
-          "name": "Notion account"
-        }
-      }
+      "typeVersion": 2
     },
     {
       "parameters": {
@@ -257,13 +239,7 @@
         920,
         360
       ],
-      "typeVersion": 2,
-      "credentials": {
-        "notionApi": {
-          "id": "zYsfAdknccFRpBJd",
-          "name": "Notion account"
-        }
-      }
+      "typeVersion": 2
     },
     {
       "parameters": {
@@ -300,13 +276,7 @@
         920,
         520
       ],
-      "typeVersion": 2,
-      "credentials": {
-        "notionApi": {
-          "id": "zYsfAdknccFRpBJd",
-          "name": "Notion account"
-        }
-      }
+      "typeVersion": 2
     },
     {
       "parameters": {
@@ -329,47 +299,37 @@
         920,
         680
       ],
-      "typeVersion": 2,
-      "credentials": {
-        "notionApi": {
-          "id": "zYsfAdknccFRpBJd",
-          "name": "Notion account"
-        }
-      }
+      "typeVersion": 2
     },
     {
       "parameters": {
+        "authentication": "oAuth2",
         "owner": {
           "__rl": true,
-          "value": "Ruijian-Zha",
-          "mode": "list",
-          "cachedResultName": "Ruijian-Zha",
-          "cachedResultUrl": "https://github.com/Ruijian-Zha"
+          "value": "daveshap",
+          "mode": "name"
         },
         "repository": {
           "__rl": true,
-          "value": "Tool_socket_template",
-          "mode": "list",
-          "cachedResultName": "Tool_socket_template",
-          "cachedResultUrl": "https://github.com/Ruijian-Zha/Tool_socket_template"
+          "value": "OpenAI_Agent_Swarm",
+          "mode": "name"
         },
         "events": [
-          "issues",
-          "*"
+          "issues"
         ]
       },
       "id": "62e1a9d3-3fc6-46de-a048-cf8176f30f94",
       "name": "Trigger on issues",
       "type": "n8n-nodes-base.githubTrigger",
       "position": [
-        0,
-        320
+        20,
+        340
       ],
       "webhookId": "bc0a0a44-00db-473b-8746-b60b3b36039c",
       "typeVersion": 1,
       "credentials": {
-        "githubApi": {
-          "id": "XbehbHMocVCMcFZl",
+        "githubOAuth2Api": {
+          "id": "iygdTUufTU0zuh4H",
           "name": "GitHub account"
         }
       }
@@ -379,16 +339,9 @@
   "settings": {
     "executionOrder": "v1"
   },
-  "staticData": {
-    "node:Trigger on issues": {
-      "webhookId": 444486836,
-      "webhookEvents": [
-        "*"
-      ]
-    }
-  },
+  "staticData": null,
   "tags": [],
-  "triggerCount": 1,
-  "updatedAt": "2023-11-21T15:47:30.000Z",
-  "versionId": "dbc4c06f-842e-44ee-9225-4c89c13aa34b"
+  "triggerCount": 0,
+  "updatedAt": "2023-11-21T04:56:42.794Z",
+  "versionId": "0b998d1f-113f-4acc-ad80-2e2a12d467b6"
 }
